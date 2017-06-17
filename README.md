@@ -17,7 +17,7 @@ public class YourJUnitTestClass extends ClassParser<ClassToBeTested> {
 	public void fieldTest() {
 	
 		String version = getField(String.class, "STATIC_VAR");
-		String firstName = getField(String.class, "");
+		String firstName = getField(String.class, "firstName");
 		
 		// do some testing
 		// Assert ...
@@ -41,10 +41,10 @@ public class YourJUnitTestClass extends ClassParser<ClassToBeTested> {
 		method("methodName");
 	
 		// method with args but no return
-		method_args("methodName", arg0, arg1, ...);
+		method_args("methodName", arg0, arg1 ...);
 	
 		// method with args and return
-		Integer sqrt = T_method_args(Integer.class, "sqrt", num);
+		Integer sqrt = T_method_args(Integer.class, "sqrt", args ...);
 		
 		// do some testing
 		// Assert ...

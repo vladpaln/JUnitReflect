@@ -1,3 +1,4 @@
+
 package com.navaile.junitreflect;
 
 import java.lang.reflect.*;
@@ -14,7 +15,7 @@ import org.junit.*;
  *
  * @author navaile
  */
-public class ClassParserTest extends ClassParser<TestClass> implements ClassParserInterface<TestClass> {
+public class ClassParserTest extends ClassParser<TestClass> {
 	
 	private final TestClass testClass = new TestClass();
 	

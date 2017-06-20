@@ -22,7 +22,7 @@ public class ClassParser<C> {
 	private final HashMap<String, Field> fieldMap = new HashMap<>();
 	
 	/**
-	 * Sets class.
+	 * Sets C instance, instance must be set on every new instance.
 	 * 
 	 * @param clazz class
 	 */

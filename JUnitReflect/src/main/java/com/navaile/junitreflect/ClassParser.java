@@ -27,14 +27,14 @@ public class ClassParser<C> {
 	 * @param clazz class
 	 */
 	public void setInstance(C clazz) {
-	
-		if(this.instance != null)	return;
 
 		this.instance = clazz;
 
+		methodMap.clear();
 		for(Method method: clazz.getClass().getDeclaredMethods())
 			methodMap.put(method.getName(), method);
 
+		fieldMap.clear();
 		for(Field field: clazz.getClass().getDeclaredFields())
 			fieldMap.put(field.getName(), field);
 	}

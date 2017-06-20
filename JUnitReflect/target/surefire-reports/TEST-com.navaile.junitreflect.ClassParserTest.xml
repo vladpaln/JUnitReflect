@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="com.navaile.junitreflect.ClassParserTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="com.navaile.junitreflect.ClassParserTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
     <property name="java.vm.version" value="25.40-b25"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\NetBeansProjects\JUnitReflect"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\NetBeansProjects\JUnitReflect\JUnitReflect"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,8 +15,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="com.navaile.junitreflect.ClassParserTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\NetBeansProjects\JUnitReflect"/>
+    <property name="user.dir" value="E:\NetBeansProjects\JUnitReflect\JUnitReflect"/>
     <property name="java.runtime.version" value="1.8.0_40-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_40\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 --debug --errors --errors --debug clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.navaile.junitreflect.ClassParserTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 --debug --errors --errors --debug surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,16 +64,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getFieldTypeTest" time="0.005"/>
+  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getFieldTypeTest" time="0.003"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="argsTest" time="0"/>
-  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getMethodTypes" time="0.001"/>
+  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getMethodTypes" time="0"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="setFieldTest" time="0"/>
-  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="method" time="0"/>
+  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="method" time="0.001"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="methodCount" time="0"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getFieldNamesTest" time="0"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="methodArgs" time="0"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="setStaticFieldTest" time="0"/>
-  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="retMethodArgs" time="0.001"/>
+  <testcase classname="com.navaile.junitreflect.ClassParserTest" name="retMethodArgs" time="0"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getMethod" time="0.001"/>
   <testcase classname="com.navaile.junitreflect.ClassParserTest" name="getFieldTest" time="0"/>
 </testsuite>
